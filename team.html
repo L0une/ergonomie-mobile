@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="UTF-8">
+		
+		<!-- PENSER A CHANGER LE TITRE. Tout ce qui se trouve dans la balise <head> ne se voit pas à l'écran,
+		se sont les méta-données. -->
+		<title>L'équipe</title>
+		
+		<link rel="stylesheet" type="text/css" media="screen" href="style/base.css">
+		<link rel="icon" href="images/favicon.png">
+	</head>
+		<!-- Le <body> contient <header> (ne pas confondre avec <head>, <main> et <footer>. -->
+	<body>	
+
+			<header>
+				
+				<!-- Renommer les liens à la façon 'href="NOM_DE_LA_PAGE.html"' -->
+				<nav>
+					<a class="logoindex" href="index.html" title="Retour à l'index" ><img src="images/logoindex.png"></a>
+					<a href="index.html" title="L'accueil">Accueil</a>
+					<a href="criteres.html" title="Les critères d'ergonomie mobile">Critères</a>
+					<a href="conclusion.html" title="La Conclusion">Conclusion</a>
+					<a class="active" href="team.html" title="L'équipe de Lucius">Équipe</a>
+					
+					<select id="menu" onchange="window.location.href=this.value;">
+						<option value="index.html">Accueil</option>
+						<option value="criteres.html">Critères</option>
+						<option value="conclusion.html">Conclusion</option>
+						<option value="team.html" selected>Équipe</option>
+					</select>
+				</nav>			
+			</header>	
+		
+		<main>
+			<!-- Pour pas que ça soit le gros bordel -->
+			<section>
+				<h1>L'équipe</h1>
+				
+				<img src="images/logo.png" class="logoteam">
+				
+				<p class="pteam">« Les astuces du platypus » est une plateforme mise en place par Lou Ballangé 
+				dans le cadre du cours d'Interface Homme-Machine donné par M. Ioan Roxin et M. Antonin Segault.
+				Ce devoir a été réalisé durant l'année scolaire 2014 / 2015.<br>
+				Lucius le Platypus  &copy Lou Ballangé.</p>	
+
+				<p class="pteam"><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licence Creative Commons" 
+				style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />
+				Ce(tte) œuvre est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+				Licence Creative Commons Attribution - Pas d&#39;Utilisation Commerciale - Pas de Modification 4.0 International</a>.</p>				
+			</section>
+		</main>
+		
+		<footer>
+				<a href="mailto:lou.ballange@gmail.com" title="Contactez-moi">Lou Ballangé</a>, L3 Sciences du langage, de l'information et de la communication - multimédia.
+				
+		</footer>
+		
+	</body>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="UTF-8">
+		
+		<!-- PENSER A CHANGER LE TITRE. Tout ce qui se trouve dans la balise <head> ne se voit pas à l'écran,
+		se sont les métadonnées. -->
+		<title>Une application attrayante</title>
+		
+		<link rel="stylesheet" type="text/css" media="screen" href="style/base.css">
+		<link rel="icon" href="images/favicon.png">
+	</head>
+		
+		
+	<body>
+
+			<header>				
+				<nav id="hdp">
+					<a class="logoindex" href="index.html" title="Retour à l'index" ><img src="images/logoindex.png"></a>
+					<a href="index.html" title="L'accueil">Accueil</a>
+					<a class="active" href="criteres.html" title="Les critères d'ergonomie mobile">Critères</a>
+					<a href="conclusion.html" title="La Conclusion">Conclusion</a>
+					<a href="team.html" title="L'équipe de Lucius">Équipe</a>
+					
+					<select id="menu" onchange="window.location.href=this.value;">
+						<option value="index.html">Accueil</option>
+						<option value="criteres.html" selected>Critères</option>
+						<option value="conclusion.html">Conclusion</option>
+						<option value="team.html">Équipe</option>
+					</select>	
+				</nav>				
+			</header>
+		
+		<main>
+			<!-- Pour pas que ça soit le gros bordel -->			
+			<section>
+				<h1>Une application attrayante</h1>				
+				<div class="explicationcritere">
+					<p>Comme dans tout processus de création d'une application, il est capital de travailler sur 
+					le <i>design</i> et d'en faire quelque chose de agréable. C'est une marque de 
+					respect pour le visiteur que de lui offrir une interface attrayante. Cependant, avant même que l'internaute 
+					ne visite l'application, il est capital de rendre l'icône attractif. C'est la porte d'entrée vers l'application. 
+					Sur un ordinateur, l'internaute peut se baser sur le résumé des moteurs de recherche pour se faire une idée, 
+					mais pas sur un téléphone portable ou une tablette.</p>
+					
+					<p>Une fois dans l'application, cette dernière doit continuer d'honorer la promesse de bonne qualité énoncée 
+					via l'icône. De petites annimations, des aides ou des personnages peuvent apporter une touche de 
+					fantasie à l'ensemble qui se doit d'être agréable et simple à parcourir. Le but est que l'internaute 
+					identifie l'icône à une application qui lui plaise puis qu'il y revienne plusieurs fois. Si l'application 
+					est à but lucratif, c'est un gain de bénéfices.</p>	
+				</div>
+				
+			<div class="divcomparaison">
+				<div class="comparaison">
+					<h3 class="bon">Duolingo</h3>
+					<p class="pcomparaison"><img src="images/08bon.jpg" class="imagecomparaison">
+					L'application Duolingo est un bon exemple d'application attrayante. Il s'agit d'une application 
+					pour apprendre les langues étrangères (l'allemand dans l'exemple ci-contre). La page est épurée, claire, 
+					l'utilisateur peut s'y retrouver facilement. De plus, le logo en forme de hibou vert apporte une petite 
+					touche de légèreté et offre un petit compagnon de route sympathique à l'apprenant.</p>					
+				</div>
+				
+				<div class="comparaison">
+					<h3 class="mauvais">ShopAdvisor</h3>
+					<p class="pcomparaison"><img src="images/08bad.jpg" class="imagecomparaison">
+					ShopAdvisor est une application de vente, ou plutôt il s'agit d'un comparateur de prix. 
+					Elle est assez bien travaillée du côté du <i>desgin</i> et du <i>feedback</i>. Cependant, elle comporte énormément de 
+					texte, dans une police assez petite, ce qui peut fatiguer les yeux. Il aurait peut-être fallut 
+					grossir la police ou mettre moins de texte pour rendre l'application plus facile à lire et plus attrayante. </p>					
+				</div>
+			</div>
+				
+				<div class="divbouton">
+					<a href="criteres.html" title="Retour à la page des critères" class="bouton">Retour aux critères</a>
+				</div>
+				
+			</section>
+		</main>
+		
+		<a href="#hdp" class="up"><img src="images/up.png"></a>
+		
+		<footer>
+				<a href="mailto:lou.ballange@gmail.com" title="Contactez-moi">Lou Ballangé</a>, L3 Sciences du langage, de l'information et de la communication - multimédia.
+				Lucius le Platypus  &copy Lou Ballangé.
+		</footer>
+		
+	</body>
+
+</html>

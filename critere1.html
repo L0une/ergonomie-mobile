@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="UTF-8">
+		
+		<!-- PENSER A CHANGER LE TITRE. Tout ce qui se trouve dans la balise <head> ne se voit pas à l'écran,
+		se sont les métadonnées. -->
+		<title>La lisibilité de la page</title>
+		
+		<link rel="stylesheet" type="text/css" media="screen" href="style/base.css">
+		<link rel="icon" href="images/favicon.png">
+	</head>
+		
+		
+	<body>
+
+			<header>				
+				<nav id="hdp">
+					<a class="logoindex" href="index.html" title="Retour à l'index" ><img src="images/logoindex.png"></a>
+					<a href="index.html" title="L'accueil">Accueil</a>
+					<a class="active" href="criteres.html" title="Les critères d'ergonomie mobile">Critères</a>
+					<a href="conclusion.html" title="La Conclusion">Conclusion</a>
+					<a href="team.html" title="L'équipe de Lucius">Équipe</a>
+					
+					<select id="menu" onchange="window.location.href=this.value;">
+						<option value="index.html">Accueil</option>
+						<option value="criteres.html" selected>Critères</option>
+						<option value="conclusion.html">Conclusion</option>
+						<option value="team.html">Équipe</option>
+					</select>	
+				</nav>				
+			</header>
+		
+		<main>
+			<!-- Pour pas que ça soit le gros bordel -->			
+			<section>
+				<h1>La lisibilité de la page</h1>				
+				<div class="explicationcritere">
+					<p>Ce premier critère concerne la lisibilité de la page. En effet, lors de sa navigation, l'utilisateur 
+					s'attend à avoir un contenu clairement lisible et facilement compréhensible. De plus, il ne faut pas 
+					qu'il se fatigue inutilement. Pour cette raison, deux points sont à prendre en compte.</p>
+					
+					<p>Tout d'abord, les polices utilisées doivent être facilement lisibles et doivent correspondre 
+					au <i>design</i> du site Internet. Elles ne doivent pas être trop nombreuses et doivent se 
+					ressembler afin de garder une cohérence graphique.</p>
+					
+					<p>Ensuite, la page doit avoir une disposition bien travaillée elle aussi. Sur un site orienté 
+					ordinateur, il est simple de séparer les différents blocs entre eux. Il est possible 
+					de faire cela grâce à des lignes, des éléments graphiques, tant que cela ne gêne pas la lisibilité. 
+					Mais sur une application ou un site mobile, il est préférable de séparer les blocs par des espaces 
+					et des blancs, pour rendre la page plus claire.</p>
+				</div>
+			
+			<div class="divcomparaison">
+				<div class="comparaison">
+					<h3><a href="http://www.bottegaromana.fr/" title="Bottega Romana" class="bon">Bottega Romana</a></h3>
+					<p class="pcomparaison"><img src="images/01bon.jpg" class="imagecomparaison">
+					Le site Bottega Romana est un bon exemple pour le critère de lisibilité. Il est responsive et même sur un écran plus petit 
+					que celui d'un ordinateur, la page est bien lisible. Des espaces marquent les séparations entre les différents 
+					blocs du site, qui eux-même sont séparés par des fonds de couleur différentes ou des images. Le tout reste cependant 
+					bien coordonné.</p>					
+				</div>
+				
+				<div class="comparaison">
+					<h3 class="mauvais">myFavorites</h3>
+					<p class="pcomparaison"><img src="images/01bad.jpg" class="imagecomparaison">
+					Sur l'application myFavorites, il est difficile de pouvoir de bien lire la page. Elle est beaucoup trop 
+					chargée par diverses informations, les images prennent beaucoup de place et il n'y a aucun texte 
+					explicatif, du moins sur cette page. Il aurait fallut mettre peut-être plus de page sur l'application 
+					et moins d'informations sur chacune.</p>					
+				</div>
+			</div>
+				
+				<div class="divbouton">
+					<a href="criteres.html" title="Retour à la page des critères" class="bouton">Retour aux critères</a>
+				</div>
+				
+			</section>
+		</main>
+		
+		<a href="#hdp" class="up"><img src="images/up.png"></a>
+		
+		<footer>
+				<a href="mailto:lou.ballange@gmail.com" title="Contactez-moi">Lou Ballangé</a>, L3 Sciences du langage, de l'information et de la communication - multimédia.
+				Lucius le Platypus  &copy Lou Ballangé.
+		</footer>
+		
+	</body>
+
+</html>

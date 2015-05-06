@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="UTF-8">
+		
+		<!-- PENSER A CHANGER LE TITRE. Tout ce qui se trouve dans la balise <head> ne se voit pas à l'écran,
+		se sont les métadonnées. -->
+		<title>Des libellés clairs</title>
+		
+		<link rel="stylesheet" type="text/css" media="screen" href="style/base.css">
+		<link rel="icon" href="images/favicon.png">
+	</head>
+		
+		
+	<body>
+
+			<header>				
+				<nav id="hdp">
+					<a class="logoindex" href="index.html" title="Retour à l'index" ><img src="images/logoindex.png"></a>
+					<a href="index.html" title="L'accueil">Accueil</a>
+					<a class="active" href="criteres.html" title="Les critères d'ergonomie mobile">Critères</a>
+					<a href="conclusion.html" title="La Conclusion">Conclusion</a>
+					<a href="team.html" title="L'équipe de Lucius">Équipe</a>
+					
+					<select id="menu" onchange="window.location.href=this.value;">
+						<option value="index.html">Accueil</option>
+						<option value="criteres.html" selected>Critères</option>
+						<option value="conclusion.html">Conclusion</option>
+						<option value="team.html">Équipe</option>
+					</select>	
+				</nav>				
+			</header>
+		
+		<main>
+			<!-- Pour pas que ça soit le gros bordel -->			
+			<section>
+				<h1>Des libellés clairs</h1>				
+				<div class="explicationcritere">
+					<p>Dans une application orientée ordinateur, le programmateur dispose de toute la place qu'il souhaite, 
+					ou presque, dans le but d'énoncer des libellés clairs. Dans la liste des recommandations de Jakob Nielsen, 
+					il est indiqué qu'un titre dans un onglet par exemple ne doit pas comporter plus de soixante quatre 
+					caractères. Cela peut être une indication de longueur pour les titres et les libellés en général. Ils ne 
+					doivent pas être trop longs, mais sur un ordinateur il y a tout de même la place pour les rendre précis.</p>
+					
+					<p>Sur un téléphone ou une tablette par contre, l'espace est beaucoup plus réduit. Cependant, les libellés 
+					se doivent d'être tout aussi précis et compréhensibles. Un véritable travail doit être effectué pour rendre 
+					une indication la plus claire possible en utilisant seulement un ou deux mots. Lorsqu'il s'agit de répertoire, le 
+					travail se fait surtout au niveau de la mise en forme, le choix des couleurs et des polices, mais lorsque 
+					le libellé doit indiquer autre chose, c'est une réflexion linguistique qui s'impose au programmateur.</p>
+					
+					<p>Dans les deux cas, les libellés doivent être lisibles et compréhensibles, ce qui fait de cette mission 
+					une des plus compliquées et importantes afin que l'internaute se sente bien dans sa navigation.</p>
+				</div>
+				
+			<div class="divcomparaison">
+				<div class="comparaison">
+					<h3><a href="http://thecolorsofmotion.com/films" title="The colors of motion" class="bon">The colors of motion</a></h3>
+					<p class="pcomparaison"><img src="images/09bon.jpg" class="imagecomparaison">
+					Le site responsive <i>The colors of motion</i> propose la visualisation des couleurs de plusieurs films et une 
+					interaction possible entre elles. Les libellés ici sont clairs : il s'agit à chaque fois des titres des films. 
+					Ainsi, l'utilisateur n'a pas moyen de se tromper, il se base en fonction du film qu'il désire. Le point faible est 
+					qu'étant donné que le site regroupe beaucoup de film, la page est très longue et le scroll vertical prend du temps.</p>					
+				</div>
+				
+				<div class="comparaison">
+					<h3 class="mauvais">Imgur</h3>
+					<p class="pcomparaison"><img src="images/09bad.jpg" class="imagecomparaison">
+					Il est très compliqué de trouver une application avec de mauvais libbelés. Comme il s'agit de la base 
+					de la navigation, c'est généralement un critère bien travaillé. L'applicaiton mobile Imgur porte le 
+					même problème que sa version ordinateur : il n'y a pas de libellés, mais les icônes ne sont pas toujours 
+					identifiables. Cela peut déranger l'internaute dans sa navigation lorsqu'il n'est pas habitué à 
+					l'application.</p>					
+				</div>
+			</div>
+				
+				<div class="divbouton">
+					<a href="criteres.html" title="Retour à la page des critères" class="bouton">Retour aux critères</a>
+				</div>
+				
+			</section>
+		</main>
+		
+		<a href="#hdp" class="up"><img src="images/up.png"></a>
+		
+		<footer>
+				<a href="mailto:lou.ballange@gmail.com" title="Contactez-moi">Lou Ballangé</a>, L3 Sciences du langage, de l'information et de la communication - multimédia.
+				Lucius le Platypus  &copy Lou Ballangé.
+		</footer>
+		
+	</body>
+
+</html>

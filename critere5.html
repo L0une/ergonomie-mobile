@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="UTF-8">
+		
+		<!-- PENSER A CHANGER LE TITRE. Tout ce qui se trouve dans la balise <head> ne se voit pas à l'écran,
+		se sont les métadonnées. -->
+		<title>L'utilisation réduite du clavier</title>
+		
+		<link rel="stylesheet" type="text/css" media="screen" href="style/base.css">
+		<link rel="icon" href="images/favicon.png">
+	</head>
+		
+		
+	<body>
+
+			<header>				
+				<nav id="hdp">
+					<a class="logoindex" href="index.html" title="Retour à l'index" ><img src="images/logoindex.png"></a>
+					<a href="index.html" title="L'accueil">Accueil</a>
+					<a class="active" href="criteres.html" title="Les critères d'ergonomie mobile">Critères</a>
+					<a href="conclusion.html" title="La Conclusion">Conclusion</a>
+					<a href="team.html" title="L'équipe de Lucius">Équipe</a>
+					
+					<select id="menu" onchange="window.location.href=this.value;">
+						<option value="index.html">Accueil</option>
+						<option value="criteres.html" selected>Critères</option>
+						<option value="conclusion.html">Conclusion</option>
+						<option value="team.html">Équipe</option>
+					</select>	
+				</nav>				
+			</header>
+		
+		<main>
+			<!-- Pour pas que ça soit le gros bordel -->			
+			<section>
+				<h1>L'utilisation réduite du clavier</h1>				
+				<div class="explicationcritere">
+					<p>Le clavier est un outil indispensable dans l'utilisation d'un ordinateur. Il permet 
+					d'entrer des informations et de les manipuler à l'aide de raccourcis. Il s'agit d'un des 
+					ports externes les plus utiles. Cependant, il devient légèrement mois utile lors de la prise en main 
+					d'une application orientée mobile.</p>
+					
+					<p>Sur une tablette ou un téléphone portable, le clavier peut devenir très gênant pour certaines manipulations. 
+					Il est donc important dans la conception 
+					d'un contenu pour ces supports de ne pas se baser sur une utilisation trop poussée du clavier. 
+					Taper de longs textes peut être fatigant pour les doigts mais également pour les yeux, car cela 
+					force l'attention sur des éléments de petite taille, parfois compliqués à cibler. L'utilisateur 
+					peut donc mettre du temps pour écrire ce qu'il souhaite.</p>
+					
+					<p>Le mieux est de faire appel le plus possible aux données déjà présentes dans l'appareil. 
+					L'application peut être connectée au téléphone ou à la tablette et accéder au répertoire par 
+					exemple, ce qui fait gagner du temps et qui permet de ne pas donner trop d'importance au clavier.</p>
+				</div>
+				
+			<div class="divcomparaison">
+				<div class="comparaison">
+					<h3 class="bon">Pepperplate Recipe, Menu & Cooking Planner</h3>
+					<p class="pcomparaison"><img src="images/05bon.jpg" class="imagecomparaison">
+					L'application Pepperplate Recipe, Menu & Cooking Planner permet de gérer le repas de l'utilisateur. 
+					Afin de réduire l'utilisation du clavier, il est possible d'importer des recettes toutes faites de 
+					sites Internet, de les gérer et les organiser en différentes listes. Les données sont téléchargeables 
+					pour la plupart, l'internaute n'a donc pas à entrer toutes les informations qu'il désire mais juste 
+					une petite partie. Cela apporte un gain de temps.</p>					
+				</div>
+				
+				<div class="comparaison">
+					<h3 class="mauvais">Mr. Number-Block calls, texts</h3>
+					<p class="pcomparaison"><img src="images/05bad.jpg" class="imagecomparaison">
+					Mr. Number-Block calls, texts est une application qui permet de bloquer des numéros afin de ne 
+					plus être dérangé par des appels inconvenants. Il est possible d'ajouter un petit commentaire 
+					à propos du numéro bloqué. Cependant, il aurait été intéressant de se pencher sur un autre moyen que le clavier 
+					afin laisser un commentaire. Une liste de petits icônes à sélectionner aurait peut-être 
+					été une bonne idée.</p>					
+				</div>
+			</div>
+				
+				<div class="divbouton">
+					<a href="criteres.html" title="Retour à la page des critères" class="bouton">Retour aux critères</a>
+				</div>
+				
+			</section>
+		</main>
+		
+		<a href="#hdp" class="up"><img src="images/up.png"></a>
+		
+		<footer>
+				<a href="mailto:lou.ballange@gmail.com" title="Contactez-moi">Lou Ballangé</a>, L3 Sciences du langage, de l'information et de la communication - multimédia.
+				Lucius le Platypus  &copy Lou Ballangé.
+		</footer>
+		
+	</body>
+
+</html>

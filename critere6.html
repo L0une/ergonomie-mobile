@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="UTF-8">
+		
+		<!-- PENSER A CHANGER LE TITRE. Tout ce qui se trouve dans la balise <head> ne se voit pas à l'écran,
+		se sont les métadonnées. -->
+		<title>Une application bien centrée</title>
+		
+		<link rel="stylesheet" type="text/css" media="screen" href="style/base.css">
+		<link rel="icon" href="images/favicon.png">
+	</head>
+		
+		
+	<body>
+
+			<header>				
+				<nav id="hdp">
+					<a class="logoindex" href="index.html" title="Retour à l'index" ><img src="images/logoindex.png"></a>
+					<a href="index.html" title="L'accueil">Accueil</a>
+					<a class="active" href="criteres.html" title="Les critères d'ergonomie mobile">Critères</a>
+					<a href="conclusion.html" title="La Conclusion">Conclusion</a>
+					<a href="team.html" title="L'équipe de Lucius">Équipe</a>
+					
+					<select id="menu" onchange="window.location.href=this.value;">
+						<option value="index.html">Accueil</option>
+						<option value="criteres.html" selected>Critères</option>
+						<option value="conclusion.html">Conclusion</option>
+						<option value="team.html">Équipe</option>
+					</select>	
+				</nav>				
+			</header>
+		
+		<main>
+			<!-- Pour pas que ça soit le gros bordel -->			
+			<section>
+				<h1>Une application bien centrée</h1>				
+				<div class="explicationcritere">
+					<p>Lors de sa navigation sur un site Internet, qu'il soit orienté ordinateur ou mobile, 
+					l'internaute va se concentrer sur le sujet abordé. Il ne doit pas être dérangé dans sa 
+					navigation ou sa lecture par des publicités ou des annonces qui prennent trop de place. 
+					Les concepteurs se sont adaptés à cela, en imposant des endroits obligatoires et prédéfinis 
+					pour les publicités et les partenariats sur les site orientés ordinateur.</p>		
+
+					<p>Sur les applications orientées mobiles, il n'est pas possible de placer des diverstissements de 
+					la sorte. L'écran est plus petit que celui d'un ordinateur, ce qui oblige les programmateurs 
+					a prévoir une autre manière de mettre l'application en page. Elle ne doit pas être polluée 
+					par des publicités ou des annonces placées sur le côté de la page. Il faut une application 
+					ou un site entièrement centré sur le sujet abordé.</p>						
+				</div>
+				
+			<div class="divcomparaison">
+				<div class="comparaison">
+					<h3 class="bon">Runtastic Pro</h3>
+					<p class="pcomparaison"><img src="images/06bon.jpg" class="imagecomparaison">
+					Runtastic Pro est une application de géolocalisation. Elle permet de trouver des itinéraires, des lieux, et indique 
+					même la météo sur le côté droit de l'écran. C'est une applicaition qui respecte ce critère car l'écran est 
+					entièrement dédié à elle. L'utilisateur n'est pas dérangé par des publicités ou des annonces qui pourraient venir 
+					polluer sa navigation. Il n'a que l'application sous les yeux, ce qui lui permet une meilleure concentration et 
+					également un gain de temps. Car si l'esprit est obligé de se tourner vers deux contenus en même temps, le temps de 
+					navigation sera rallongé. Ici, ce n'est pas le cas, l'application occupant tout l'écran.</p>					
+				</div>
+				
+				<div class="comparaison">
+					<h3 class="mauvais">WebMD Health Tools</h3>
+					<p class="pcomparaison"><img src="images/06bad.jpg" class="imagecomparaison">
+					WebMD Health Tools est une application pour Android à but médical. Elle est bien travaillée au niveau du <i>design</i>, 
+					cependant un bandeau de publicité sur le bas attire l'oeil. Cette publicité, d'une couleur plus vive que 
+					l'application elle-même, peut déranger certains utilisateurs. Il est difficile de ne pas y faire attention et le 
+					regarde se porte facilement dessus. Étant donné qu'elle diffère grandement de l'application au niveau graphique, 
+					l'internaute peut se demander de quoi il s'agit et être gêné par sa présence pendant sa navigation. Il aurait fallut, 
+					si la publicité est réellement indispensable, utiliser une couleur moins vive.</p>					
+				</div>
+			</div>
+				
+				<div class="divbouton">
+					<a href="criteres.html" title="Retour à la page des critères" class="bouton">Retour aux critères</a>
+				</div>
+				
+			</section>
+		</main>
+		
+		<a href="#hdp" class="up"><img src="images/up.png"></a>
+		
+		<footer>
+				<a href="mailto:lou.ballange@gmail.com" title="Contactez-moi">Lou Ballangé</a>, L3 Sciences du langage, de l'information et de la communication - multimédia.
+				Lucius le Platypus  &copy Lou Ballangé.
+		</footer>
+		
+	</body>
+
+</html>

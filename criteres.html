@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="UTF-8">
+		
+		<!-- PENSER A CHANGER LE TITRE. Tout ce qui se trouve dans la balise <head> ne se voit pas à l'écran,
+		se sont les métadonnées. -->
+		<title>Les critères</title>
+		
+		<link rel="stylesheet" type="text/css" media="screen" href="style/base.css">
+		<link rel="icon" href="images/favicon.png">
+	</head>
+		
+		
+	<body>
+
+			<header>				
+				<nav>
+					<a class="logoindex" href="index.html" title="Retour à l'index" ><img src="images/logoindex.png"></a>
+					<a href="index.html" title="L'accueil">Accueil</a>
+					<a class="active" href="criteres.html" title="Les critères d'ergonomie mobile">Critères</a>
+					<a href="conclusion.html" title="La Conclusion">Conclusion</a>
+					<a href="team.html" title="L'équipe de Lucius">Équipe</a>
+					
+					<select id="menu" onchange="window.location.href=this.value;">
+						<option value="index.html">Accueil</option>
+						<option value="criteres.html" selected>Critères</option>
+						<option value="conclusion.html">Conclusion</option>
+						<option value="team.html">Équipe</option>
+					</select>	
+				</nav>				
+			</header>
+		
+		<main>
+			<!-- Pour pas que ça soit le gros bordel -->			
+			<section>
+				<h1>Les critères</h1>
+				
+			<div class="divbouton">
+				<a href="critere1.html" title="Lisiblité de la page" class="bouton">Lisiblité de la page</a>
+				<a href="critere2.html" title="Images et icônes" class="bouton">Images et icônes</a>
+				<a href="critere3.html" title="Actions identifiables" class="bouton">Actions identifiables</a>
+				<a href="critere4.html" title="Contenu adapté" class="bouton">Contenu adapté</a>
+				<a href="critere5.html" title="Utilisation réduite du clavier" class="bouton">Utilisation réduite du clavier</a>
+				<a href="critere6.html" title="Application centrée" class="bouton">Application centrée</a>
+				<a href="critere7.html" title="Importance du feedback" class="bouton">Importance du <i>feedback</i></a>
+				<a href="critere8.html" title="Application attrayante" class="bouton">Application attrayante</a>
+				<a href="critere9.html" title="Libellés clairs" class="bouton">Libellés clairs</a>
+			</div>
+			</section>
+		</main>
+		
+		<footer>
+				<a href="mailto:lou.ballange@gmail.com" title="Contactez-moi">Lou Ballangé</a>, L3 Sciences du langage, de l'information et de la communication - multimédia.
+				Lucius le Platypus  &copy Lou Ballangé.
+		</footer>
+		
+	</body>
+
+</html>

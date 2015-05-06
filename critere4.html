@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="UTF-8">
+		
+		<!-- PENSER A CHANGER LE TITRE. Tout ce qui se trouve dans la balise <head> ne se voit pas à l'écran,
+		se sont les métadonnées. -->
+		<title>Un contenu adapté</title>
+		
+		<link rel="stylesheet" type="text/css" media="screen" href="style/base.css">
+		<link rel="icon" href="images/favicon.png">
+	</head>
+		
+		
+	<body>
+
+			<header>				
+				<nav id="hdp">
+					<a class="logoindex" href="index.html" title="Retour à l'index" ><img src="images/logoindex.png"></a>
+					<a href="index.html" title="L'accueil">Accueil</a>
+					<a class="active" href="criteres.html" title="Les critères d'ergonomie mobile">Critères</a>
+					<a href="conclusion.html" title="La Conclusion">Conclusion</a>
+					<a href="team.html" title="L'équipe de Lucius">Équipe</a>
+					
+					<select id="menu" onchange="window.location.href=this.value;">
+						<option value="index.html">Accueil</option>
+						<option value="criteres.html" selected>Critères</option>
+						<option value="conclusion.html">Conclusion</option>
+						<option value="team.html">Équipe</option>
+					</select>	
+				</nav>				
+			</header>
+		
+		<main>
+			<!-- Pour pas que ça soit le gros bordel -->			
+			<section>
+				<h1>Un contenu adapté</h1>				
+				<div class="explicationcritere">
+					<p>Le contenu de n'importe quel site Internet, qu'il soit orienté mobile ou ordinateur, 
+					se doit d'être parfaitement adapté. Dans un site orienté ordinateur, ce n'est pas compliqué, 
+					il suffit de ne pas trop encombrer la page et de travailler sur le <i>design</i> comme indiqué dans les 
+					critère précedents. De plus, les critères de Amélie Boucher, AFNOR et Jakob Nielsen sont 
+					facilement accessibles pour faire ce travail.</p>
+					
+					<p>Cependant, lorsque le site est orienté mobile, il est nécessaire de faire quelques 
+					changements. Pour les zones de sélections par exemple, une case à cocher ne suffira pas 
+					pour que l'utilisateur puisse la sélectionner avec le pouce. Il faut adapter la zone de 
+					sélection à la case et au texte qui l'accompagne. Un autre exemple qui pourrait vous orienter, 
+					dans la conception d'un formulaire, il est possible de gagner de la place en insérant 
+					la valeur demandée dans le champ directement, au lieu de la mettre à côté.</p>
+				</div>
+				
+			<div class="divcomparaison">
+				<div class="comparaison">
+					<h3 class="bon">Allthecooks Recipes</h3>
+					<p class="pcomparaison"><img src="images/04bon.jpg" class="imagecomparaison">
+					Allthecooks Recipes est une application de gestion de recettes. Elle permet d'en importer depuis 
+					des sites Internet et également d'organiser les repas en calendriers. Elle est bien adaptée à une 
+					utilisation mobile car elle comporte des photographies qui servent à illustrer les propos inscrits dessus. 
+					Le texte et la photographie ne sont pas séparés, ils sont combinés mais cela reste lisible, sans pour autant 
+					devoir faire appel à un survol du curseur pour faire apparaître le texte, ce qui n'est de toute manière pas 
+					faisable sur une application mobile.</p>					
+				</div>
+				
+				<div class="comparaison">
+					<div class="comparaison">
+					<h3><a href="http://www.wideeyecreative.com/" title="Wide Eye Creative" class="mauvais">Wide Eye Creative</a></h3>
+					<p class="pcomparaison"><img src="images/04bad.jpg" class="imagecomparaison">
+					Le site de Wide Eye Creative est techniquement un bon site responsive. Cependant, il comporte beaucoup de photographies. 
+					Elles réagissent au survol du curseur. Hors, dans une application orientée mobile, ce genre d'animation 
+					ne peut pas être pris en compte. Il aurait fallut travailler le code responsive du site en supprimant 
+					cette fonctionnalité au-delà d'une certaine limite de réduction de l'écran et la remplacer par les textes écrits 
+					sous les images, ou la suppression des images pour éviter de faire une page trop haute.</p>
+				</div>
+			</div>
+				
+				<div class="divbouton">
+					<a href="criteres.html" title="Retour à la page des critères" class="bouton">Retour aux critères</a>
+				</div>
+				
+			</section>
+		</main>
+		
+		<a href="#hdp" class="up"><img src="images/up.png"></a>
+		
+		<footer>
+				<a href="mailto:lou.ballange@gmail.com" title="Contactez-moi">Lou Ballangé</a>, L3 Sciences du langage, de l'information et de la communication - multimédia.
+				Lucius le Platypus  &copy Lou Ballangé.
+		</footer>
+		
+	</body>
+
+</html>

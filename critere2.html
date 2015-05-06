@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="UTF-8">
+		
+		<!-- PENSER A CHANGER LE TITRE. Tout ce qui se trouve dans la balise <head> ne se voit pas à l'écran,
+		se sont les métadonnées. -->
+		<title>Le travail des images</title>
+		
+		<link rel="stylesheet" type="text/css" media="screen" href="style/base.css">
+		<link rel="icon" href="images/favicon.png">
+	</head>
+		
+		
+	<body>
+
+			<header>				
+				<nav id="hdp">
+					<a class="logoindex" href="index.html" title="Retour à l'index" ><img src="images/logoindex.png"></a>
+					<a href="index.html" title="L'accueil">Accueil</a>
+					<a class="active" href="criteres.html" title="Les critères d'ergonomie mobile">Critères</a>
+					<a href="conclusion.html" title="La Conclusion">Conclusion</a>
+					<a href="team.html" title="L'équipe de Lucius">Équipe</a>
+					
+					<select id="menu" onchange="window.location.href=this.value;">
+						<option value="index.html">Accueil</option>
+						<option value="criteres.html" selected>Critères</option>
+						<option value="conclusion.html">Conclusion</option>
+						<option value="team.html">Équipe</option>
+					</select>	
+				</nav>				
+			</header>
+		
+		<main>
+			<!-- Pour pas que ça soit le gros bordel -->			
+			<section>
+				<h1>Le travail des images</h1>				
+				<div class="explicationcritere">
+					<p>Les icônes et les images font partie intégrante du <i>design</i> et de la mise en forme d'un site, qu'il 
+					soit orienté utilisation mobile ou ordinateur. Cependant, il est compliqué de faire la part des choses 
+					entre trop d'images et trop peu.</p>
+					
+					<p>Si les images sont trop présentes, le résultat donnera une page beaucoup trop encombrée, et 
+					si le site est responsive, sur un mobile cela sera d'autant plus gênant dans la navigation. Au contraire, 
+					s'il n'y a pas assez d'images, il se peut que l'espace soit comblé par des textes trop longs, et le résultat sera 
+					le même. Il faut donc trouver le juste équilibre, en n'oubliant pas que des images ne doivent jamais 
+					être intégrées dans un site pour faire joli mais pour accompagner un propos.</p>
+					
+					<p>Pour les icônes, étant donné que l'écran d'un appareil mobile est plus petit que celui d'un ordinateur, 
+					il faut qu'ils soient bien travaillés, explicites et compréhensibles même sur format réduit.</p>
+				</div>
+				
+			<div class="divcomparaison">
+				<div class="comparaison">
+					<h3 class="bon">Tumblr</h3>
+					<p class="pcomparaison"><img src="images/02bon.jpg" class="imagecomparaison">
+					L'application Tumblr, qui permet le partage de créations grapiques et vidéos entre autre, est un bon exemple 
+					pour ce critère. La page d'accueil ci-contre ne comporte que des icônes accompagnés d'un titre. Les 
+					icônes sont bien travaillés, ils sont visibles, lisibles et compréhensibles même sur un petit écran. De 
+					plus, ils sont assez gros pour pouvoir être sélectionnés facilement.</p>					
+				</div>
+				
+				<div class="comparaison">
+					<h3 class="mauvais">eFax</h3>
+					<p class="pcomparaison"><img src="images/02bad.jpg" class="imagecomparaison">
+					eFax est une application pour envoyer et recevoir des fax facilement. Les couleurs sont assez sombres, mais ce qui 
+					peut déranger le plus l'utilisateur sur ce contenu est le fond à pois noirs et gris. Les motifs de cette sorte, répétitifs, 
+					ont un côté épileptique qui peut grandement déranger la navigation. Pour rester dans des tons identiques, 
+					un fond uni noir ou gris aurait été plus à propos.</p>					
+				</div>
+			</div>
+				
+				<div class="divbouton">
+					<a href="criteres.html" title="Retour à la page des critères" class="bouton">Retour aux critères</a>
+				</div>
+				
+			</section>
+		</main>
+		
+		<a href="#hdp" class="up"><img src="images/up.png"></a>
+		
+		<footer>
+				<a href="mailto:lou.ballange@gmail.com" title="Contactez-moi">Lou Ballangé</a>, L3 Sciences du langage, de l'information et de la communication - multimédia.
+				Lucius le Platypus  &copy Lou Ballangé.
+		</footer>
+		
+	</body>
+
+</html>

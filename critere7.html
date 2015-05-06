@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="UTF-8">
+		
+		<!-- PENSER A CHANGER LE TITRE. Tout ce qui se trouve dans la balise <head> ne se voit pas à l'écran,
+		se sont les métadonnées. -->
+		<title>L'importance du feedback</title>
+		
+		<link rel="stylesheet" type="text/css" media="screen" href="style/base.css">
+		<link rel="icon" href="images/favicon.png">
+	</head>
+		
+		
+	<body>
+
+			<header>				
+				<nav id="hdp">
+					<a class="logoindex" href="index.html" title="Retour à l'index" ><img src="images/logoindex.png"></a>
+					<a href="index.html" title="L'accueil">Accueil</a>
+					<a class="active" href="criteres.html" title="Les critères d'ergonomie mobile">Critères</a>
+					<a href="conclusion.html" title="La Conclusion">Conclusion</a>
+					<a href="team.html" title="L'équipe de Lucius">Équipe</a>
+					
+					<select id="menu" onchange="window.location.href=this.value;">
+						<option value="index.html">Accueil</option>
+						<option value="criteres.html" selected>Critères</option>
+						<option value="conclusion.html">Conclusion</option>
+						<option value="team.html">Équipe</option>
+					</select>	
+				</nav>				
+			</header>
+		
+		<main>
+			<!-- Pour pas que ça soit le gros bordel -->			
+			<section>
+				<h1>L'importance du <i>feedback</i></h1>				
+				<div class="explicationcritere">
+					<p>Dans toute application, le <i>feedback</i> est une des notions les plus importantes. 
+					Il est capital d'informer la position de l'internaute dans une application mobile. 
+					Le site peut avoir une page comme dix, il est difficile sur un appareil 
+					mobile de s'en rendre compte si l'information n'est pas clairement fournie. Donner cette 
+					information va permettre à l'internaute non seulement de ne pas se perdre dans sa navigation 
+					mais également de la stopper et la reprendre dès qu'il le souhaite.</p>
+					
+					<p>De plus, le <i>feedback</i> peut prendre une autre dimension. Les appareils mobiles 
+					possèdent des fonctionnalités qui ne sont pas portées sur ordinateur mais qui permettent de fournir 
+					un suivi tout aussi efficace. La fonction haptique notamment, c'est-à-dire le fait que 
+					l'appareil se mette à vibrer, est une bonne indication pour l'utilisateur. Elle remplace 
+					le <i>feedback</i> lorsque le son ne peut pas être utilisé.</p>
+					
+					<p>Cette idée de guider l'internaute dans l'application reste importante, peu importe 
+					le support utilisé.</p>
+				</div>
+				
+			<div class="divcomparaison">
+				<div class="comparaison">
+					<h3 class="bon">MyExpenses</h3>
+					<p class="pcomparaison"><img src="images/07bon.jpg" class="imagecomparaison">
+					L'application MyExpenses fait partie des applications ayant un bon <i>feedback</i>. Comme dit plus haut, 
+					il est nécessaire d'informer l'utilisateur de sa position dans l'application, et cela à tout 
+					moment de sa navigation. Sur cette dernière, c'est le cas. Grâce au menu du bas, l'internaute peut 
+					naviguer en toute sérénité et savoir à tout moment sur quelle page il se trouve. Cela peut également se faire 
+					en numérotant les pages, en bas de l'application.</p>					
+				</div>
+				
+				<div class="comparaison">
+					<h3 class="mauvais">Kindle</h3>
+					<p class="pcomparaison"><img src="images/07bad.jpg" class="imagecomparaison">
+					Il est compliqué de trouver un mauvais exemple d'une application pour ce critère. Toutes les applications 
+					sont obligées d'avoir un bon <i>feedback</i>. Cependant, sur celle de Kindle, qui permet de conserver des <i>EBooks</i> 
+					acquis et d'en acheter d'autres, il manque une indication sur le nombre de livres présents dans chaque catégorie. 
+					Dans l'exemple ci-contre, l'utilisateur en peut pas savoir si après le livre bleu, il y en a trois ou dix.</p>					
+				</div>
+			</div>
+				
+				<div class="divbouton">
+					<a href="criteres.html" title="Retour à la page des critères" class="bouton">Retour aux critères</a>
+				</div>
+				
+			</section>
+		</main>
+		
+		<a href="#hdp" class="up"><img src="images/up.png"></a>
+		
+		<footer>
+				<a href="mailto:lou.ballange@gmail.com" title="Contactez-moi">Lou Ballangé</a>, L3 Sciences du langage, de l'information et de la communication - multimédia.
+				Lucius le Platypus  &copy Lou Ballangé.
+		</footer>
+		
+	</body>
+
+</html>

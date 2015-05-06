@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="UTF-8">
+		
+		<!-- PENSER A CHANGER LE TITRE. Tout ce qui se trouve dans la balise <head> ne se voit pas à l'écran,
+		se sont les métadonnées. -->
+		<title>Les astuces du platypus</title>
+		
+		<link rel="stylesheet" type="text/css" media="screen" href="style/base.css">
+		<link rel="icon" href="images/favicon.png">
+	</head>
+		
+		
+	<body>
+
+			<header>				
+				<nav class="fixNavigation">
+					<a class="logoindex" href="index.html" title="Retour à l'index" ><img src="images/logoindex.png"></a>
+					<a class="active" href="index.html" title="L'accueil">Accueil</a>
+					<a href="criteres.html" title="Les critères d'ergonomie mobile">Critères</a>
+					<a href="conclusion.html" title="La Conclusion">Conclusion</a>
+					<a href="team.html" title="L'équipe de Lucius">Équipe</a>
+					
+					<!-- Select = menu déroulant. Value > c'est là qu'on va. -->
+					<select id="menu" onchange="window.location.href=this.value;">
+						<option value="index.html" selected>Accueil</option>
+						<option value="criteres.html">Critères</option>
+						<option value="conclusion.html">Conclusion</option>
+						<option value="team.html">Équipe</option>
+					</select>
+				</nav>
+			</header>
+		
+		<main>
+			<!-- Pour pas que ça soit le gros bordel -->			
+			<section>
+				<h1>L'introduction à l'ergonomie mobile</h1>
+				
+				<p>L'ergonomie mobile. Un travail à prendre en compte dans la conception d'une application pour 
+				les appareils mobiles comme les téléphones portables ou les tablettes numériques. Sur « Les astuces du platypus », 
+				nous vous proposons d'aborder ce thème et de le creuser afin d'en apprendre un maximum. 
+				Mais avant de parler d'ergonomie mobile, arrêtons-nous sur le terme d'ergonomie.</p>
+				
+				<h2>Qu'est-ce que l'ergonomie ?</h2>
+				<p>L'ergonomie est l'ensemble des connaissances scientifiques afin que l'homme puisse 
+				concevoir des outils, des machines et des dispositifs qui puissent être utilisés
+				avec un maximum de confort, de sécurité et d’efficacité. Il est très important de travailler sur l'ergonomie 
+				afin de fournir un contenu efficace et compréhensible. L'internaute doit être 
+				au centre des réflexions du programmateur. Ce dernier doit se mettre à sa place afin de lui 
+				fournir un site optimisé au maximum.</p>
+				
+				<p>En terme d'ergonomie, des règles ont été établies par des chercheurs. Tout d'abord, Amélie Boucher a édité 
+				douze règles, puis huit autres critères ont été rédigés par Christian Bastien et Dominic Scapin dans le cadre de 
+				l'AFNOR (Association française de normalisation). Enfin cent treize recommandations ont été écrites par 
+				Jakob Nielsen et Marie Tahir. Pour une connaissance plus approfondie de ces concepts, nous vous invitons 
+				à suivre les liens mis à votre disposition ci-dessous.</p>
+				
+				<div class='liens_accueil'>
+					<a target='_blank' href="http://www.ergoweb.ca/criteres.html" title="AFNOR" class="bouton">Critères d'AFNOR</a>
+					<a target='_blank' href="https://larlet.fr/david/biologeek/archives/20071117-12-regles-d-ergonomie-web-par-amelie-boucher/" title="Amélie Boucher" class="bouton">Critères d'Amélie Boucher</a>
+					<a target='_blank' href="http://www.nngroup.com/articles/113-design-guidelines-homepage-usability/" title="Nielsen/Tahir" class="bouton">Critères de Jakob Nielsen</a>
+				</div>
+				
+				<h2>Et l'ergonomie mobile dans tout ça ?</h2>
+				<p>L'ergonomie mobile se base sur les principes de l'ergonomie classique. Cependant, un ordinateur a des moyens 
+				différents d'une tablette numérique ou d'un téléphone portable. De même, les internautes ont des manipulations et 
+				des habitudes différentes. Les règles éditées sont donc à prendre en compte mais dans une moindre mesure, ou 
+				alors elles doivent être revues et modifiées pour les applications orientées mobile.</p>
+				
+				<p>Sur « Les astuces du platypus », Lucius vous propose d'aborder neuf critères à prendre en compte 
+				dans le processus de création d'une application pour les appareils mobiles. Ces critères ont été travaillés 
+				suite à l'étude de ceux indiqués plus haut. Ils se réfèrent à eux et s'accomodent au support qui diffère. 
+				Nous vous proposons cette liste non exhaustive, à compléter pourquoi pas par vos soins.</p>
+			</section>
+		</main>
+		
+		<footer>
+				<a href="mailto:lou.ballange@gmail.com" title="Contactez-moi">Lou Ballangé</a>, L3 Sciences du langage, de l'information et de la communication - multimédia.
+				Lucius le Platypus  &copy Lou Ballangé.
+		</footer>
+		
+	</body>
+
+</html>

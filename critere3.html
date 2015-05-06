@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<meta charset="UTF-8">
+		
+		<!-- PENSER A CHANGER LE TITRE. Tout ce qui se trouve dans la balise <head> ne se voit pas à l'écran,
+		se sont les métadonnées. -->
+		<title>Des actions identifiables</title>
+		
+		<link rel="stylesheet" type="text/css" media="screen" href="style/base.css">
+		<link rel="icon" href="images/favicon.png">
+	</head>
+		
+		
+	<body>
+
+			<header>				
+				<nav id="hdp">
+					<a class="logoindex" href="index.html" title="Retour à l'index" ><img src="images/logoindex.png"></a>
+					<a href="index.html" title="L'accueil">Accueil</a>
+					<a class="active" href="criteres.html" title="Les critères d'ergonomie mobile">Critères</a>
+					<a href="conclusion.html" title="La Conclusion">Conclusion</a>
+					<a href="team.html" title="L'équipe de Lucius">Équipe</a>
+					
+					<select id="menu" onchange="window.location.href=this.value;">
+						<option value="index.html">Accueil</option>
+						<option value="criteres.html" selected>Critères</option>
+						<option value="conclusion.html">Conclusion</option>
+						<option value="team.html">Équipe</option>
+					</select>	
+				</nav>				
+			</header>
+		
+		<main>
+			<!-- Pour pas que ça soit le gros bordel -->			
+			<section>
+				<h1>Des actions identifiables</h1>				
+				<div class="explicationcritere">
+					<p>Lors du processus de création d'un site Internet, il est nécessaire de prendre la place 
+					de l'internaute afin de penser comme lui et de pouvoir créer le contenu le plus ergonomique 
+					possible. Et cela passe par une navigation simple et rapidement compréhensible. L'utilisateur 
+					ne doit pas passer du temps à se poser des questions inutiles.</p>
+					
+					<p>Dans une application orientée mobile, les doigts, notamment le pouce de l'internaute, lui 
+					servent de curseur. Beaucoup de fonctionnalités très utiles sur un ordinateur sont compliquées 
+					voire impossible à mettre en place. Dans d'autres cas, des raccourcis ou applications qui simplifient 
+					la navigation sur ordinateur ne fonctionneraient pas ou seraient inutiles sur un mobile. De même, 
+					toutes les actions de survol du curseur ne seront pas prises en compte dans une application orientée mobile.</p>	
+					
+					<p>Pour simplifier le plus possible la navigation sur un site orienté mobile, 
+					il est nécessaire de rendre les actions clairement identifiables. Lorsque l'internaute 
+					doit cliquer, il doit de suite savoir où. Ce critère aborde l'idée d'affordance : un lien 
+					doit prendre une forme plus évidente sur une application mobile, comme un bouton par exemple.</p>	
+				</div>
+				
+			<div class="divcomparaison">
+				<div class="comparaison">
+					<h3><a href="http://www.mlfb.com/" title="Major League of Football" class="bon">Major League of Football</a></h3>
+					<p class="pcomparaison"><img src="images/03bon.jpg" class="imagecomparaison">
+					Le site responsive <i>Major League of Football</i> répond parfaitement à ce critère. Sur la page d'accueil, qui est 
+					assez épurée, ne se trouvent que deux boutons qui sont visibles : le logo qui revient à cette même page et le menu, 
+					qui déroule un onglet sur le côté droit de l'écran avec toutes les possibilités de navigation dans ce site.
+					L'utilisateur n'a pas à se demande où il doit cliquer pour accéder au contenu, les boutons sont graphiquement 
+					identifiables.</p>					
+				</div>
+				
+				<div class="comparaison">
+					<h3><a href="http://explorezlalegende.voile.banquepopulaire.fr/" title="Explorez la légende" class="mauvais">Explorez la légende</a></h3>
+					<p class="pcomparaison"><img src="images/03bad.jpg" class="imagecomparaison">
+					Le site responsive Explorez la légende ne répond pas à ce critère d'actions 
+					clairement identifiables. Lorsqu'il est disponible sur un petit écran, l'utilisateur peut penser qu'il a la possilibité de 
+					cliquer sur les images comme celle ci-contre (« 1, apprenez à naviguer »), cependant ce n'est pas le cas. Il est dit plus bas 
+					qu'il faut ouvrir le site via un ordinateur ou un tablette pour accéder à son contenu intéractif.</p>					
+				</div>
+			</div>
+				
+				<div class="divbouton">
+					<a href="criteres.html" title="Retour à la page des critères" class="bouton">Retour aux critères</a>
+				</div>
+			
+			</section>
+		</main>
+		
+		<a href="#hdp" class="up"><img src="images/up.png"></a>
+		
+		<footer>
+				<a href="mailto:lou.ballange@gmail.com" title="Contactez-moi">Lou Ballangé</a>, L3 Sciences du langage, de l'information et de la communication - multimédia.
+				Lucius le Platypus  &copy Lou Ballangé.
+		</footer>
+		
+	</body>
+
+</html>
